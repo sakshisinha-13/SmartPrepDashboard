@@ -1,0 +1,197 @@
+{
+  "company": "Microsoft",
+  "role": "Software Engineer",
+  "yoe": "College Graduate",
+  "oa": {
+    "2019": [
+      {
+      "link": "https://www.geeksforgeeks.org/maximum-distance-between-two-points-in-coordinate-plane-using-rotating-calipers-method/",
+       "difficulty": "Hard",
+       "topic": "Greedy"
+      },
+      {
+      "link": "https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/description/",
+       "difficulty": "Hard",
+       "topic": "General"
+      }
+    ],
+    "2021": [
+      {
+      "link": "https://www.geeksforgeeks.org/problems/longest-increasing-subsequence-1587115620/1",
+      "difficulty": "Medium",
+       "topic": "Dynamic Programming"
+    }
+    ],
+    "2022": [
+      {
+      "link": "https://www.geeksforgeeks.org/remove-three-consecutive-duplicates-string/",
+      "difficulty": "Medium",
+      "topic": "String Manipulation"
+    },
+    {
+      "link": "https://www.geeksforgeeks.org/rock-paper-scissor-game-in-cpp/",
+      "difficulty": "Easy",
+      "topic": " Implementation / Simulation"
+    }
+    ],
+    "2024": [
+      {
+      "link": "https://www.geeksforgeeks.org/program-decimal-hexadecimal-conversion/",
+      "difficulty": "Easy",
+      "topic": "Bit Manipulation / Number Systems"
+    },
+    {
+      "link": "There are N points given (numbered from 0 to N-1) on one plan. The point kth is at the coordinates (X[k], Y[k]), and the tag of the point is S[k]. We want to make a circle with a center at (0,0). The circle should not have two points with the same tag. What is the maximum number of possible points within the circle?",
+       "difficulty": "Hard",
+       "topic": "Geometry + Hashing / Sets"
+    },
+      {
+      "link": "https://leetcode.com/problems/longest-path-with-different-adjacent-characters/description/",
+      "difficulty": "Hard",
+      "topic": "Trees + DFS"
+    },
+    {
+      "link": "https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/description/",
+      "difficulty": "Hard",
+      "topic": "Two Pointers / Greedy"
+    },
+    {
+      "link": "https://www.geeksforgeeks.org/problems/swap-all-odd-and-even-bits-1587115621/1",
+      "difficulty": "Easy",
+      "topic": "Bit Manipulation"
+    },
+    {
+      "link": "https://www.geeksforgeeks.org/convert-binary-tree-to-doubly-linked-list-by-keeping-track-of-visited-node/",
+      "difficulty": "Medium",
+      "topic": "Trees + Linked List"
+    },
+    {
+      "link": "https://www.geeksforgeeks.org/sort-a-linked-list-of-0s-1s-or-2s/",
+      "difficulty": "Medium",
+      "topic": "Linked List"
+    },
+    {
+      "link": "https://www.geeksforgeeks.org/minimum-time-required-so-that-all-oranges-become-rotten/",
+      "difficulty": "Medium",
+      "topic": "Graphs + BFS"
+    }
+  ],
+    "2025": [
+       {
+      "link": "https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1",
+      "difficulty": "Medium",
+      "topic": "Dynamic Programming"
+    },
+    {
+      "link": "https://www.geeksforgeeks.org/problems/evaluation-of-postfix-expression1735/1",
+      "difficulty": "Medium",
+      "topic": "Stacks"
+    },
+    {
+      "link": "https://www.geeksforgeeks.org/problems/dice-throw5349/1",
+      "difficulty": "Medium",
+      "topic": "Dynamic Programming"
+    }
+  ]
+  },
+  "interview": {
+    "dsa": [
+      { "year": "2019", "link": "https://www.geeksforgeeks.org/longest-increasing-consecutive-subsequence/", "difficulty": "Easy", "topic": "Arrays / DP" },
+      { "year": "2020", "link": "https://www.geeksforgeeks.org/reverse-a-linked-list-in-groups-of-given-size/", "difficulty": "Hard", "topic": "Linked List" },
+      { "year": "2020", "link": "https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/", "difficulty": "Easy", "topic": "Trees / BFS" },
+      { "year": "2020", "link": "https://www.geeksforgeeks.org/find-the-point-where-maximum-intervals-overlap/", "difficulty": "Medium", "topic": "Greedy" },
+      { "year": "2020", "link": "https://www.geeksforgeeks.org/check-for-majority-element-in-a-sorted-array/", "difficulty": "Easy", "topic": "Binary Search" },
+      { "year": "2021", "link": "https://www.geeksforgeeks.org/problems/reverse-a-stack/1", "difficulty": "Medium", "topic": "Stacks" },
+      { "year": "2022", "link": "https://www.geeksforgeeks.org/problems/compute-before-matrix--170637/1",  "difficulty": "Medium", "topic": "Matrix / Prefix Sum" },
+      { "year": "2022", "link": "https://leetcode.com/problems/generate-parentheses/description/",  "difficulty": "Medium", "topic": "Backtracking" },
+      { "year": "2022", "link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/",  "difficulty": "Medium", "topic": "Trees" },
+      { "year": "2022", "link": "https://www.geeksforgeeks.org/josephus-problem/",  "difficulty": "Easy", "topic": "Recursion / Math" },
+      { "year": "2022", "link": "https://leetcode.com/problems/word-ladder/description/", "difficulty": "Hard", "topic": "Graph" },
+      { "year": "2022", "link": "https://www.geeksforgeeks.org/problems/search-in-a-matrix17201720/1", "difficulty": "Medium", "topic": "Matrix / Binary Search" },
+      { "year": "2022", "link": "https://leetcode.com/problems/combination-sum/description/", "difficulty": "Medium", "topic": "Backtracking" },
+      { "year": "2023", "link": "https://www.geeksforgeeks.org/problems/powx-n/1",  "difficulty": "Easy", "topic": "Recursion" },
+      { "year": "2023", "link": "https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1",  "difficulty": "Medium", "topic": "Linked List" },
+      { "year": "2023", "link": "https://www.geeksforgeeks.org/lru-cache-implementation/", "difficulty": "Medium", "topic": "Hashing" },
+      { "year": "2023", "link": "https://www.geeksforgeeks.org/problems/prefix-to-postfix-conversion/1", "difficulty": "Medium", "topic": "Stacks" },
+      { "year": "2023", "link": "https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1", "difficulty": "Medium", "topic": "Stacks" },
+      { "year": "2023", "link": "https://www.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream1216/1", "difficulty": "Medium", "topic": "Queue / Hashing" },
+      { "year": "2023", "link": "https://www.geeksforgeeks.org/problems/decode-the-string2444/1", "difficulty": "Medium", "topic": "Stacks" },
+      { "year": "2023", "link": "https://www.geeksforgeeks.org/problems/print-matrix-in-zig-zag-fashion--122748/1", "difficulty": "Easy", "topic": "Matrix" },
+      { "year": "2023", "link": "https://leetcode.com/problems/reverse-words-in-a-string/description/", "difficulty": "Medium", "topic": "String" },
+      { "year": "2023", "link": "https://www.geeksforgeeks.org/problems/distance-of-nearest-cell-having-1-1587115620/1", "difficulty": "Medium", "topic": "BFS / Matrix" },
+      { "year": "2024", "link": "https://leetcode.com/problems/word-search/description/", "difficulty": "Medium", "topic": "Backtracking" },
+      { "year": "2024", "link": "https://leetcode.com/problems/find-median-from-data-stream/description/", "difficulty": "Hard", "topic": "Priority Queue" },
+      { "year": "2024", "link": "https://leetcode.com/problems/valid-parentheses/", "difficulty": "Easy", "topic": "Stacks" },
+      { "year": "2024", "link": "https://leetcode.com/problems/longest-valid-parentheses/description/", "difficulty": "Hard", "topic": "Stacks" },
+      { "year": "2024", "link": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/description/", "difficulty": "Medium", "topic": "Stacks" },
+      { "year": "2024", "link": "https://www.geeksforgeeks.org/connect-leaves-doubly-linked-list/", "difficulty": "Medium", "topic": "Tree / Linked List" },
+      { "year": "2024", "link": "https://leetcode.com/problems/spiral-matrix/description/", "difficulty": "Medium", "topic": "Matrix" },
+      { "year": "2024", "link": "https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/description/", "difficulty": "Hard", "topic": "Graph" },
+      { "year": "2024", "link": "https://leetcode.com/problems/permutations-ii/description/", "difficulty": "Medium", "topic": "Backtracking" },
+      { "year": "2024", "link": "https://www.geeksforgeeks.org/print-subsequences-string/", "difficulty": "Easy", "topic": "Recursion" },
+      { "year": "2024", "link": "https://leetcode.com/problems/gas-station/description/", "difficulty": "Medium", "topic": "Greedy" },
+      { "year": "2024", "link": "https://www.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency-1587115621/1", "difficulty": "Medium", "topic": "Hashing / Sorting" },
+      { "year": "2024", "link": "http://geeksforgeeks.org/problems/phone-directory4628/1", "difficulty": "Hard", "topic": "Trie" },
+      { "year": "2024", "link": "https://www.geeksforgeeks.org/connect-leaves-doubly-linked-list/", "difficulty": "Medium", "topic": "Tree / Linked List" },
+      { "year": "2024", "link": "https://www.hackerearth.com/problem/algorithm/coin-group-8/", "difficulty": "Easy", "topic": "DP" },
+      { "year": "2024", "link": "https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1", "difficulty": "Medium", "topic": "Linked List" },
+      { "year": "2024", "link": "https://leetcode.com/problems/validate-binary-search-tree/description/",  "difficulty": "Medium", "topic": "BST" },
+      { "year": "2024", "link": "https://www.geeksforgeeks.org/remove-characters-from-the-first-string-which-are-present-in-the-second-string/",  "difficulty": "Easy", "topic": "Hashing / String" },
+      { "year": "2024", "link": "https://www.geeksforgeeks.org/reverse-alternate-k-nodes-in-a-singly-linked-list/", "difficulty": "Medium", "topic": "Linked List" },
+      { "year": "2024", "link": "https://www.geeksforgeeks.org/remove-duplicates-from-a-given-string/", "difficulty": "Easy", "topic": "Hashing / String" },
+      { "year": "2024", "link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/", "difficulty": "Easy", "topic": "BST" },
+      { "year": "2024", "link": "https://leetcode.com/problems/merge-intervals/description/", "difficulty": "Medium", "topic": "Greedy / Intervals" },
+      { "year": "2024", "link": "https://www.geeksforgeeks.org/the-celebrity-problem/", "difficulty": "Medium", "topic": "Graph / Stack" },
+      { "year": "2024", "link": "https://www.geeksforgeeks.org/introduction-and-array-implementation-of-queue/", "difficulty": "Easy", "topic": "Queue" },
+      { "year": "2024", "link": "https://leetcode.com/problems/power-of-two/description/", "difficulty": "Easy", "topic": "Bit Manipulation" },
+      { "year": "2024", "link": "https://www.geeksforgeeks.org/how-to-create-a-dictionary-in-cpp/", "difficulty": "Easy", "topic": "STL / HashMap" }
+    ],
+    "oops": [
+      { "year": "2024", "link": "What is the best possible time complexity for a given algorithm?",  "difficulty": "Medium" },
+      { "year": "2024", "link": "What is the best possible space complexity achievable?" ,  "difficulty": "Medium"},
+      { "year": "2024", "link": "What are abstract classes and interfaces? Which one offers more abstraction?" ,  "difficulty": "Medium"},
+      { "year": "2024", "link": "How can multiple inheritance be implemented in Java and C++?",  "difficulty": "Medium" },
+      { "year": "2024", "link": "What is inheritance upcasting and downcasting in Java?",  "difficulty": "Easy" }
+    ],
+    "os": [
+      { "year": "2021", "link": "What are deadlocks and how can they be prevented in an operating system?",  "difficulty": "Medium" },
+      { "year": "2021", "link": "What is the difference between a mutex and a semaphore?",  "difficulty": "Medium" },
+      { "year": "2022", "link": "What is Belady’s Anomaly? Explain it with an example.",  "difficulty": "Medium" },
+      { "year": "2024", "link": "How can a large file (e.g., a video or movie) be sent over the Internet?",  "difficulty": "Easy"},
+      { "year": "2024", "link": "What is the difference between the Linux and Windows operating systems or kernels?",  "difficulty": "Medium"},
+      { "year": "2024", "link": "What is the difference between a process and a thread?",  "difficulty": "Easy" },
+      { "year": "2024", "link": "What are the key properties of distributed systems?",  "difficulty": "Medium" }
+    ],
+    "dbms": [
+      { "year": "2022", "link": "What is Boyce-Codd Normal Form (BCNF)? How is it different from Third Normal Form (3NF)? Provide an example.",  "difficulty": "Medium"}
+    ],
+    "system_design": [
+      { "year": "2020", "link": "How would you design a URL shortener like TinyURL?",  "difficulty": "Medium" },
+      { "year": "2022", "link": "Explain the Singleton design pattern and provide a use case.",  "difficulty": "Easy" },
+      { "year": "2022", "link": "Explain the Builder design pattern with a real-world analogy.",  "difficulty": "Easy" },
+      { "year": "2022", "link": "Design a system for managing employee work approvals.",  "difficulty": "Medium" },
+      { "year": "2022", "link": "How would you integrate a service with AWS or Azure? What are the key considerations?",  "difficulty": "Medium" },
+      { "year": "2022", "link": "Design a messaging application similar to WhatsApp. What should be the structure of the database/data structures/tables? What core functionalities would you prioritize? What would be your top 5 test cases to validate this application?",  "difficulty": "Hard" },
+      { "year": "2024", "link": "Design a scalable voting system for 100 million users, considering global distribution and user categories such as NRIs and Indian residents.",  "difficulty": "Hard" },
+      { "year": "2024", "link": "Design a multiplayer tic-tac-toe game for smartphones.", "difficulty": "Medium" },
+      { "year": "2024", "link": "Design a vending machine that is accessible to blind and deaf users.", "difficulty": "Medium" }
+    ],
+    "Behavioral": [
+      "Why Microsoft?",
+      "Tell me about yourself",
+      "Why are you interested in this role?",
+      "What’s your favorite Microsoft product? What are its advantages and disadvantages, and how would you improve it?",
+      "How open are you to new ideas?",
+      "Describe a time you learned from a mistake.",
+      "Describe a time you were wrong and how you handled it.",
+      "Tell me about a time you helped a teammate approach a problem in a new way.",
+      "What has been your biggest accomplishment so far?",
+      "Can you describe your long-term career goals?",
+      "How do you handle competing priorities?",
+      "What are your strengths?",
+      "Tell us something unique about yourself and elaborate on your hobbies.",
+      "What are some trending technologies you’re excited about?"
+    ]
+  }
+}
+

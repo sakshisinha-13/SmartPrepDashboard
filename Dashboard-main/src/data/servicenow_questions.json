@@ -1,0 +1,192 @@
+{
+  "company": "ServiceNow",
+  "role": "Software Engineer",
+  "yoe": "College Graduate",
+  "oa": {
+    "2022": [
+      {
+      "link": "Given multiple flasks with different capacities, we had to find one flask that would satisfy the requirement with minimum wastage. If no flask can satisfy the requirement, then the output is -1.",
+       "difficulty": "Medium",
+       "topic": "Greedy"
+      }
+    ],
+    "2025": [
+      {
+      "link": "https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/",
+      "difficulty": "Medium",
+       "topic": "Dynamic Programming"
+      }
+    ]
+  },
+  "interview": {
+    "dsa": [
+      {
+        "year": "2022",
+        "link": "https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/",
+        "difficulty": "Easy",
+         "topic": "Stacks"
+      },
+      {
+        "year": "2022",
+        "link": "Given an array consisting of 0\u2019s and other integers, rearrange the array in such a way that zeroes are pushed to the end of the array and the non-zero integers are in sorted order.",
+        "difficulty": "Easy",
+          "topic": "Sorting"
+      },
+      {
+        "year": "2022",
+        "link": "https://www.geeksforgeeks.org/reverse-a-linked-list/",
+        "difficulty": "Easy",
+        "topic": "Linked List"
+      },
+      {
+        "year": "2024",
+        "link": "https://www.geeksforgeeks.org/problems/pascal-triangle0652/1",
+        "difficulty": "Medium",
+        "topic": "Arrays / Math"
+      },
+      {
+        "year": "2024",
+        "link": "https://leetcode.com/problems/set-matrix-zeroes/description/",
+        "difficulty": "Medium",
+        "topic": "Matrix"
+      },
+      {
+        "year": "2024",
+        "link": "https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/",
+        "difficulty": "Medium",
+        "topic": "BST"
+      },
+      {
+        "year": "2024",
+        "link": "https://www.geeksforgeeks.org/find-pythagorean-triplet-in-an-unsorted-array/",
+        "difficulty": "Medium",
+         "topic": "Hashing / Two Pointers"
+      },
+      {
+        "year": "2025",
+        "link": "https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/",
+         "difficulty": "Hard",
+           "topic": "Sliding Window / Deque"
+      },
+      {
+        "year": "2025",
+        "link": "https://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/",
+        "difficulty": "Medium",
+         "topic": "Two Pointers / Hashing"
+      },
+      {
+        "year": "2025",
+        "link": "https://www.geeksforgeeks.org/find-the-missing-number/",
+         "difficulty": "Easy",
+          "topic": "Math / Arrays"
+      },
+      {
+        "year": "2025",
+        "link": "https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/",
+         "difficulty": "Medium",
+          "topic": "Greedy / Sorting"
+      },
+      {
+        "year": "2025",
+        "link": "https://leetcode.com/problems/maximum-subarray/description/",
+         "difficulty": "Medium",
+          "topic": "Kadane’s Algorithm / DP"
+      },
+      {
+        "year": "2025",
+        "link": "https://www.geeksforgeeks.org/convert-infix-expression-to-postfix-expression/",
+         "difficulty": "Medium",
+          "topic": "Stacks / Expression Parsing"
+      },
+      {
+        "year": "2025",
+        "link": "https://www.geeksforgeeks.org/the-knights-tour-problem/",
+          "difficulty": "Medium",
+            "topic": "Backtracking / Graphs"
+      }
+    ],
+    "oops": [
+      {
+        "year": "2022",
+        "link": "Explain OOPS concepts with examples.",
+         "difficulty": "Easy"
+      },
+      {
+        "year": "2022",
+        "link":  "Is multiple inheritance possible in Java?",
+        "difficulty": "Medium"
+      },
+      {
+        "year": "2022",
+        "link": "What are interfaces and why do you use them?",
+         "difficulty": "Medium"
+      },
+      {
+        "year": "2022",
+        "link":  "Explain the data structures you know and their practical applications.",
+         "difficulty": "Medium"
+      }
+    ],
+    "os": [
+      {
+        "year": "2022",
+        "link": "What is a deadlock? What are the algorithms for avoiding a deadlock?",
+         "difficulty": "Medium"
+      },
+      {
+        "year": "2022",
+        "link": "What are the necessary conditions for a deadlock to occur?",
+        "difficulty": "Easy"
+      },
+      {
+        "year": "2022",
+        "link": "What is thrashing in OS?",
+         "difficulty": "Medium"
+      }
+    ],
+    "dbms": [
+      {
+        "year": "2022",
+        "link": "What is virtual memory?",
+          "difficulty": "Easy"
+      },
+      {
+        "year": "2022",
+        "link":  "What is the difference between the TRUNCATE and DELETE commands?",
+        "difficulty": "Medium"
+      },
+      {
+        "year": "2022",
+        "link": "What is indexing? How does it help? Are there any disadvantages to using indexes?",
+        "difficulty": "Medium"
+      },
+      {
+        "year": "2022",
+        "link":  "What is transaction management? Briefly explain it.",
+        "difficulty": "Medium"
+      },
+      {
+        "year": "2022",
+        "link": "Explain ACID properties and normalization.",
+        "difficulty": "Medium"
+      }
+    ],
+    "Behavioral": [
+      {
+        "link": "Tell me about yourself."
+      },
+      {
+        "link": "Tell me about your hobbies and related experiences."
+      },
+      {
+        "link": "Where do you see yourself after one year?"
+      },
+      {
+        "link": "What do you know about ServiceNow?"
+      },
+      {
+        "link":  "Describe how you typically handle challenging or unexpected situations."
+      }
+    ]
+  }
+}
