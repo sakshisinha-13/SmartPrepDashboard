@@ -32,7 +32,7 @@ const topicLabels = {
 
 export default function SearchPage() {
     const [query, setQuery] = useState('');
-    const [selectedCompanies, setSelectedCompanies] = useState([]); // multiple companies
+    const [selectedCompanies, setSelectedCompanies] = useState([]);
     const [role, setRole] = useState('');
     const [yoe, setYoe] = useState('');
     const [assessmentType, setAssessmentType] = useState('');
@@ -41,8 +41,8 @@ export default function SearchPage() {
     const [difficulty, setDifficulty] = useState('');
     const [darkMode, setDarkMode] = useState(false);
     const [simpleView, setSimpleView] = useState(false);
+    const [noMatch, setNoMatch] = useState(false);
 
-    // State for ticked questions - store links in a Set or object
     const [tickedQuestions, setTickedQuestions] = useState({});
 
     useEffect(() => {
@@ -57,8 +57,8 @@ export default function SearchPage() {
             .map(companyName => allCompanies[companyName]);
 
         setSelectedCompanies(matches.length > 0 ? matches : []);
+        setNoMatch(matches.length === 0);
 
-        // Reset filters on new search
         setRole('');
         setYoe('');
         setAssessmentType('');
@@ -197,6 +197,12 @@ export default function SearchPage() {
                         <button onClick={handleSearch} className="px-6 py-3 bg-blue-600 text-white rounded-md text-lg font-semibold hover:bg-blue-700 transition">
                             Search
                         </button>
+                        {noMatch && (
+                            <div className="bg-red-100 dark:bg-red-800 text-red-800 dark:text-red-100 p-4 rounded-md text-center font-semibold mt-4 w-full">
+                                No questions found for this company.
+                            </div>
+                        )}
+
                         <button
                             onClick={() => setDarkMode(!darkMode)}
                             className="px-6 py-3 bg-gray-200 dark:bg-gray-600 rounded-md text-lg font-semibold hover:bg-gray-300 dark:hover:bg-gray-500 transition"
@@ -360,10 +366,10 @@ export default function SearchPage() {
                                                         {q.difficulty && (
                                                             <span
                                                                 className={`px-3 py-1 rounded-full font-medium text-xs ${q.difficulty === 'Easy'
-                                                                        ? 'bg-green-100 text-green-800 dark:bg-green-700 dark:text-green-200'
-                                                                        : q.difficulty === 'Medium'
-                                                                            ? 'bg-yellow-100 text-yellow-800 dark:bg-yellow-700 dark:text-yellow-200'
-                                                                            : 'bg-red-100 text-red-800 dark:bg-red-700 dark:text-red-200'
+                                                                    ? 'bg-green-100 text-green-800 dark:bg-green-700 dark:text-green-200'
+                                                                    : q.difficulty === 'Medium'
+                                                                        ? 'bg-yellow-100 text-yellow-800 dark:bg-yellow-700 dark:text-yellow-200'
+                                                                        : 'bg-red-100 text-red-800 dark:bg-red-700 dark:text-red-200'
                                                                     }`}
                                                             >
                                                                 {q.difficulty}
