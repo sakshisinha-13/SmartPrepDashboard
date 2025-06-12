@@ -197,12 +197,6 @@ export default function SearchPage() {
                         <button onClick={handleSearch} className="px-6 py-3 bg-blue-600 text-white rounded-md text-lg font-semibold hover:bg-blue-700 transition">
                             Search
                         </button>
-                        {noMatch && (
-                            <div className="bg-red-100 dark:bg-red-800 text-red-800 dark:text-red-100 p-4 rounded-md text-center font-semibold mt-4 w-full">
-                                No questions found for this company.
-                            </div>
-                        )}
-
                         <button
                             onClick={() => setDarkMode(!darkMode)}
                             className="px-6 py-3 bg-gray-200 dark:bg-gray-600 rounded-md text-lg font-semibold hover:bg-gray-300 dark:hover:bg-gray-500 transition"
@@ -210,6 +204,13 @@ export default function SearchPage() {
                         >
                             {darkMode ? '☀️ Light' : '🌙 Dark'}
                         </button>
+                        {noMatch && (
+                            <div className="bg-red-100 dark:bg-red-800 text-red-800 dark:text-red-100 p-4 rounded-md text-center font-semibold mt-4 w-full">
+                                No questions found for this company.
+                            </div>
+                        )}
+
+
                     </div>
 
                     {/* Role & YOE Row */}
